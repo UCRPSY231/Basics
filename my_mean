@@ -1,0 +1,4 @@
+def myMean(input1,input2,input3):
+	summed_inputs = input1 + input2 + input3
+	mean = summed_inputs/3
+	return mean
