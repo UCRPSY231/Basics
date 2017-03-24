@@ -5,8 +5,9 @@ If you don't have python already on your system, you will need to install it. Pl
 ### Installing with "pip"
 Now that you have python installed, we would like to install additional modules, or libraries, to enable us to use python for computational modeling. 
 We recommend installing the python modules needed for this course using "pip" (https://pip.pypa.io/en/stable/quickstart/). 
-To do so, install pip using the directions provided here: https://pip.pypa.io/en/stable/installing/. Next, clone this git repository to your home directory. Finally, open a terminal, cd into the folder that you have just cloned, and type 
+To do so, install pip using the directions provided here: https://pip.pypa.io/en/stable/installing/. Next, download this  repository by clicking on the green button on the top right of this page. When finished downloading, extract the contents of the downloaded zip file to your home directory. Finally, open a terminal, and type: 
 ```
+cd Basics-master 
 pip install -r requirements.txt
 ```
 ### matplolib
