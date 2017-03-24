@@ -1,9 +1,10 @@
 # Basics
-Documentation on coding principles, git, etc
-
+## Installing python
+If you don't have python already on your system, you will need to install it. Please install the latest version of python available here: https://www.python.org/downloads/
 ## Installing required python modules for PSY 234
 ### Installing with "pip"
-We recommend installing python modules using "pip" (https://pip.pypa.io/en/stable/quickstart/). To install the modules required for course work, install pip (https://pip.pypa.io/en/stable/installing/), download the requirements text file we hav eprovided into your home directory, open a terminal, and type 
+Now that you have python installed, we would like to install additional modules, or libraries, to enable us to use python for computational modeling. 
+We recommend installing the python modules needed for this course using "pip" (https://pip.pypa.io/en/stable/quickstart/). To do so, first clone this git repository to your home directory. Second, if you do not have "pip" installed already, install pip using the directions provided here: https://pip.pypa.io/en/stable/installing/. Then, open a terminal, cd into the folder that you have just cloned, and type 
 ***pip install -r requirements.txt
 ### matplolib
 Please install the latest version of matplotlib using "pip". More info can be found here: http://matplotlib.org/1.3.1/users/installing.html
