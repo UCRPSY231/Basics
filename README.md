@@ -1,11 +1,10 @@
 # Basics
 ## Installing python
-If you don't have python already on your system, you will need to install it. Please install the latest version of python available here: https://www.python.org/downloads/
+If you don't have python already on your system, you will need to install it. Please install python version 3.5 available here: https://www.python.org/downloads/
 ## Installing required python modules for PSY 234
 ### Installing using requirements.txt
-Now that you have python installed, we would like to install additional modules, or libraries, to enable us to use python for computational modeling. 
-We recommend installing the python modules needed for this course using "pip" (https://pip.pypa.io/en/stable/quickstart/). 
-To do so, install pip using the directions provided here: https://pip.pypa.io/en/stable/installing/. Next, download this  repository by clicking on the green button on the top right of this page. When finished downloading, extract the contents of the downloaded zip file to your home directory. Finally, open a terminal, and type: 
+Now that you have python installed, we would like to install additional modules to enable us to use python for computational modeling. 
+We recommend installing the python modules needed for this course using "pip" (https://pip.pypa.io/en/stable/quickstart/), which is installed during python installation. First, download this repository by clicking on the green button on the top right of this page. When finished downloading, extract the contents of the file to your home directory. Finally, open a terminal, and type: 
 ```
 cd Basics-master 
 pip install -r requirements.txt
