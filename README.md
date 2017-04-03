@@ -4,12 +4,15 @@ If you don't have python already on your system, you will need to install it. Pl
 ## Installing required python modules
 ### Installing using requirements.txt (on MacOS and Windows)
 Now that you have python installed, we would like to install additional modules to enable us to use python for computational modeling. 
-We recommend installing the python modules needed for this course using "pip" (https://pip.pypa.io/en/stable/quickstart/), which is installed during python installation. First, download this repository by clicking on the green button on the top right of this page. When finished downloading, extract the contents of the file to your home directory. Finally, open a terminal, and type: 
+We recommend installing the python modules needed for this course using "pip" (https://pip.pypa.io/en/stable/quickstart/), which is typically installed alongside python (Windows). Open a terminal, and type: 
 ```
-cd Basics-master 
-pip install -r requirements.txt
+pip3 install numpy scipy sklearn pandas
+# For Ubuntu:
+pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.0.1-cp35-cp35m-linux_x86_64.whl
+# For Mac:
+pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
 ```
-### Installing each module separately (Linux)
+### Troubleshooting: Installing each module separately
 #### matplotlib
  http://matplotlib.org/1.3.1/users/installing.html
 #### pandas
