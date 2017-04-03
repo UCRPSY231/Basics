@@ -12,7 +12,7 @@ pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tenso
 # For Mac:
 pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
 ```
-### Troubleshooting: Installing each module separately
+### Troubleshooting: Try installing each module separately
 #### matplotlib
  http://matplotlib.org/1.3.1/users/installing.html
 #### pandas
