@@ -6,7 +6,7 @@ If you don't have python already on your system, you will need to install it. Pl
 Now that you have python installed, we would like to install additional modules to enable us to use python for computational modeling. 
 We recommend installing the python modules needed for this course using "pip" (https://pip.pypa.io/en/stable/quickstart/), which is typically installed alongside python (Windows). Open a terminal, and type: 
 ```
-pip3 install numpy scipy sklearn pandas
+pip install numpy scipy sklearn pandas
 # For Ubuntu:
 pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.0.1-cp35-cp35m-linux_x86_64.whl
 # For Mac:
