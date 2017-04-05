@@ -2,7 +2,7 @@
 ## Installing python 
 If you don't have python already on your system, you will need to install it. Please install python version 3.5 available here: https://www.python.org/downloads/
 ## Installing required python modules
-### Installing using requirements.txt (on MacOS and Windows)
+### Installing using 'pip'
 Now that you have python installed, we would like to install additional modules to enable us to use python for computational modeling. 
 We recommend installing the python modules needed for this course using "pip" (https://pip.pypa.io/en/stable/quickstart/), which is typically installed alongside python (Windows). Open a terminal, and type: 
 ```
